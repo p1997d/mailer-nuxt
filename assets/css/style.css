@@ -1,0 +1,75 @@
+main {
+    padding: 20px;
+}
+.message {
+    display: table;
+    width: 100%;
+    cursor: pointer;
+}
+.subjects {
+    display: table-cell;
+    width: 65%;
+    text-align: left;
+}
+.from {
+    display: table-cell;
+    width: 20%;
+    text-align: left;
+}
+.time {
+    display: table-cell;
+    width: 15%;
+    text-align: end;
+    text-align: right;
+}
+#checkMessage {
+    margin-right: 5px;
+}
+body {
+    background: #f8f9fa;
+}
+.login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+.btn-circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.loginForm{
+    position: absolute;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#status {
+    color:#f00;
+}
+#sendSuccess {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    transition: 0.5s;			
+}
+#link {
+    position: relative;
+    left: 50%;
+    width: fit-content;
+}

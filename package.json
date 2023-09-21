@@ -1,0 +1,29 @@
+{
+  "name": "mailer-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.6.4",
+    "@nuxtjs/auth-next": "^5.0.0-1624817847.21691f1",
+    "@nuxtjs/axios": "^5.13.6",
+    "argon2": "^0.28.2",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.15.1",
+    "express": "^4.17.1",
+    "imap-simple": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.2",
+    "net": "^1.0.2",
+    "nodemailer": "^6.6.5",
+    "nuxt": "^2.15.7",
+    "semver": "^7.1.3",
+    "tls": "0.0.1"
+  },
+  "devDependencies": {}
+}
